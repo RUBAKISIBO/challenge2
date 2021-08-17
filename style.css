@@ -1,0 +1,141 @@
+* {
+    
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+    text-align: center;    
+    padding: 30px;
+    color: hsl(0, 0%, 59%); 
+    font-size: xx-large;
+    }
+
+    small{
+        font-size: small;
+        margin-right: auto; 
+        color:hsl(354, 100%, 66%);
+        margin-top: -25px;
+        margin-right: 150px;         
+    }
+
+p span.soon {
+    color: black;
+    font-weight: 700;
+    }
+p span.sub {
+    color: hsl(209, 33%, 12%);
+    font-size: medium;
+    font-weight: 300;
+ }
+
+article{
+  text-align: center;
+}
+
+
+
+input {
+    background-color: white;
+    border-color: lightgray;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 10px;
+    width: 20%;
+}
+
+input::placeholder{
+    color: lightgray;
+}
+
+input:hover{
+    border-color: gray;
+}
+
+button {
+    background-color: hsl(223, 91%, 34%);
+    border-radius: 30px;
+    padding: 10px;
+    width: 10%; 
+    border-style: hidden;
+    color: white;
+}
+
+button:hover{
+    background-color: hsl(223, 87%, 63%);
+    cursor: grab;
+}
+
+.ar {
+    width: 30%;
+    }
+
+footer{
+    text-align: center;
+    color: lightgray;
+    padding: 10px;
+    font-size: small;
+    }
+
+.fab {
+        color: blue;
+        padding: 5px;
+        border: 1px solid  blue ;
+        border-radius: 50%;
+    }
+    
+.fab:hover {
+   background: blue;
+   color:#fff;
+   cursor: pointer;
+}   
+
+
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 670px) {
+    
+    .error {
+        display: flex;
+        flex-direction: column;
+    }
+
+    small {
+        margin-right: auto;
+    }
+
+    p span.launch {
+        font-size: x-large;
+        
+    }
+
+    input {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: hsl(223, 87%, 63%);
+
+        
+    }
+
+    .ar{
+        width: 300px;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+
+    
+}
